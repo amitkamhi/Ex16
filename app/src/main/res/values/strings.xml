@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ex16</string>
+    <string name="instractions">This application demonstrase the interaction between the UI main thread and 1 \'workers\' thread that run in the background, and the effect of synchronizing or not syncronizing with each other.</string>
+    <string name="text">Shared Counter</string>
+    <string name="synchronize">Synchronized Counting</string>
+    <string name="unsynchronized">Unsynchronized Counting</string>
+</resources>

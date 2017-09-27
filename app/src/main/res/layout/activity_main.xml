@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kamhi.ex16.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instractions"  />
+
+    <TextView
+        android:text="@string/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_marginEnd="51dp"
+        android:layout_marginTop="125dp"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="0"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:id="@+id/coloredTV"
+        android:layout_alignTop="@+id/text"
+        android:layout_toStartOf="@+id/text"
+        android:layout_marginEnd="21dp" />
+
+    <Button
+        android:text="@string/synchronize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:textSize="15dp"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/coloredTV"
+        android:layout_toEndOf="@+id/coloredTV" />
+
+    <Button
+        android:text="@string/unsynchronized"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:textSize="15dp"
+
+        android:layout_alignTop="@+id/button"
+        android:layout_alignEnd="@+id/coloredTV" />
+</RelativeLayout>
