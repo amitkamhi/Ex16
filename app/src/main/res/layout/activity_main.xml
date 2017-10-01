@@ -40,8 +40,9 @@
         android:text="@string/synchronize"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
+        android:id="@+id/buttonSync"
         android:textSize="15dp"
+        android:onClick="startWorkers"
         android:layout_marginTop="66dp"
         android:layout_below="@+id/coloredTV"
         android:layout_toEndOf="@+id/coloredTV" />
@@ -50,9 +51,9 @@
         android:text="@string/unsynchronized"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
+        android:id="@+id/buttonUnSync"
         android:textSize="15dp"
-
-        android:layout_alignTop="@+id/button"
+        android:onClick="startWorkers"
+        android:layout_alignTop="@+id/buttonSync"
         android:layout_alignEnd="@+id/coloredTV" />
 </RelativeLayout>
